@@ -1,0 +1,14 @@
+.card {
+    background-color: white;
+    padding: 2px;
+    width: 50%;
+    margin: 5px auto;
+}
+
+.conteudo {
+    background-color: purple;
+}
+
+.footer {
+    background-color: red;
+}
