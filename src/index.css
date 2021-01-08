@@ -1,9 +1,23 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
+* {
+    padding: 2px;
+    margin: 2px;
+}
+
 body {
     text-align: center;
     background-color: rgb(48, 48, 48);
-    color: rgba(255, 255, 255, 0.897);
+    color: #ffffffe5;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
