@@ -5,6 +5,10 @@
     margin: 2px;
 }
 
+ul {
+    padding-left: 40px;
+}
+
 body {
     text-align: center;
     background-color: rgb(48, 48, 48);
