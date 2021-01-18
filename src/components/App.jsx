@@ -10,9 +10,13 @@ import Primeiro from './Primeiro'
 import ComParametro from './ComParametros'
 import Repeticao from './Repeticao'
 import ComFilhos from './ComFilhos'
+import Condicional from './Condicional'
 
 const myVar = (props) => {
     return <div className="App">
+        <Card titulo="#05 - Condicional">
+            <Condicional numero={9}></Condicional>
+        </Card>
         <Card titulo="#04 - Repetição">
             <Repeticao>
                 <ul>
