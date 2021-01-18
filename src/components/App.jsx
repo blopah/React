@@ -11,9 +11,13 @@ import ComParametro from './ComParametros'
 import Repeticao from './Repeticao'
 import ComFilhos from './ComFilhos'
 import Condicional from './Condicional'
+import CondicionalComIf from './CondicionalComIf'
 
 const myVar = (props) => {
     return <div className="App">
+        <Card titulo="#05 - Condicional">
+            <CondicionalComIf numero={8}></CondicionalComIf>
+        </Card>
         <Card titulo="#05 - Condicional">
             <Condicional numero={9}></Condicional>
         </Card>
