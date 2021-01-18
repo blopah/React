@@ -15,7 +15,7 @@ import CondicionalComIf from './basicos/CondicionalComIf'
 
 const myVar = (props) => {
     return <div className="App">
-        <Card titulo="#06 - Condicional Com If" color="#0505ff">
+        <Card titulo="#06 - Condicional Com If" color="#FC4A1A">
             <CondicionalComIf numero={8}></CondicionalComIf>
         </Card>
         <Card titulo="#05 - Condicional">
