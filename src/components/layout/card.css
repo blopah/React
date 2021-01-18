@@ -19,5 +19,10 @@
 
 .footer {
     background-color: rgb(8, 45, 112);
-    /* border: 1px black solid; */
+    border: 1px black solid;
+}
+
+
+ul {
+    padding-left: 40px;
 }

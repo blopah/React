@@ -6,16 +6,16 @@ import React from 'react'
 
 // components
 import Card from './layout/card'
-import Primeiro from './Primeiro'
-import ComParametro from './ComParametros'
-import Repeticao from './Repeticao'
-import ComFilhos from './ComFilhos'
-import Condicional from './Condicional'
-import CondicionalComIf from './CondicionalComIf'
+import Primeiro from './basicos/Primeiro'
+import ComParametro from './basicos/ComParametros'
+import Repeticao from './basicos/Repeticao'
+import ComFilhos from './basicos/ComFilhos'
+import Condicional from './basicos/Condicional'
+import CondicionalComIf from './basicos/CondicionalComIf'
 
 const myVar = (props) => {
     return <div className="App">
-        <Card titulo="#05 - Condicional">
+        <Card titulo="#06 - Condicional Com If" color="#0505ff">
             <CondicionalComIf numero={8}></CondicionalComIf>
         </Card>
         <Card titulo="#05 - Condicional">
