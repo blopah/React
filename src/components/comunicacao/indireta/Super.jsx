@@ -1,5 +1,5 @@
 import React from 'react'
-import Filho from './Filho'
+import Filho from './Super'
 
 const myVar = (props) => {
     return <div>
