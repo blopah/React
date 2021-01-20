@@ -4,7 +4,7 @@ const myVar = (props) => {
     return (
         <div>
             <button onClick={() => {
-                props.onClicar(Math.random())
+                props.onClicar(Math.random(), 'Fim')
             }}>Alterar</button>
         </div>
     );
