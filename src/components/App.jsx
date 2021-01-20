@@ -12,9 +12,13 @@ import Repeticao from './basicos/Repeticao'
 import ComFilhos from './basicos/ComFilhos'
 import Condicional from './basicos/Condicional'
 import CondicionalComIf from './basicos/CondicionalComIf'
+import Comunicacaodireta from './comunicacao/direta/Pai'
 
 const myVar = (props) => {
     return <div className="App">
+        <Card titulo="#07 - Comunicação direta" color="#0C4A1A">
+            <Comunicacaodireta></Comunicacaodireta>
+        </Card>
         <Card titulo="#06 - Condicional Com If" color="#FC4A1A">
             <CondicionalComIf numero={8}></CondicionalComIf>
         </Card>

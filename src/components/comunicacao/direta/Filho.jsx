@@ -2,7 +2,7 @@ import React from 'react'
 
 const myVar = (props) => {
     return <div>
-        <h3>Filho</h3>
+        <h4>{props.children} {props.sobrenome}</h4>
     </div>
 }
 

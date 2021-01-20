@@ -3,7 +3,8 @@ import Filho from './Filho'
 
 const myVar = (props) => {
     return <div>
-        <h3>Pai</h3>
+        <Filho sobrenome="Silva">Enzo</Filho>
+        <Filho sobrenome="Silva">Valentina</Filho>
     </div>
 }
 
