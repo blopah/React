@@ -16,16 +16,16 @@ import Comunicacaodireta from './comunicacao/direta/Pai'
 
 const myVar = (props) => {
     return <div className="App">
-        <Card titulo="#07 - Comunicação direta" color="#0C4A1A">
-            <Comunicacaodireta></Comunicacaodireta>
+        <Card titulo="#07 - Comunicação direta" color="#f00000">
+            <Comunicacaodireta sobrenome="Freitas"></Comunicacaodireta>
         </Card>
-        <Card titulo="#06 - Condicional Com If" color="#FC4A1A">
+        <Card titulo="#06 - Condicional Com If" color="#00f000">
             <CondicionalComIf numero={8}></CondicionalComIf>
         </Card>
-        <Card titulo="#05 - Condicional">
+        <Card titulo="#05 - Condicional" color="#00fff0">
             <Condicional numero={9}></Condicional>
         </Card>
-        <Card titulo="#04 - Repetição">
+        <Card titulo="#04 - Repetição" color="#000f00">
             <Repeticao>
                 <ul>
                     <li>Python</li>
@@ -35,7 +35,7 @@ const myVar = (props) => {
                 </ul>
             </Repeticao>
         </Card>
-        <Card titulo="#03 - Com Filhos">
+        <Card titulo="#03 - Com Filhos" color="#0000f0">
             <ComFilhos>
                 <ul>
                     <li>Python</li>
@@ -45,7 +45,7 @@ const myVar = (props) => {
                 </ul>
             </ComFilhos>
         </Card>
-        <Card titulo="#02 - Com Parametros">
+        <Card titulo="#02 - Com Parametros" color="#f000f0">
             <ComParametro pai="Pablo" mae="Vitória" filho="Joaquim"></ComParametro>
         </Card>
         <Card titulo="#01 - Primeiro">

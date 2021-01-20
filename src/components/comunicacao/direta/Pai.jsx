@@ -3,8 +3,9 @@ import Filho from './Filho'
 
 const myVar = (props) => {
     return <div>
-        <Filho sobrenome="Silva">Enzo</Filho>
-        <Filho sobrenome="Silva">Valentina</Filho>
+        <Filho {...props}>Hermes</Filho>
+        <Filho sobrenome={props.sobrenome}>Cristo</Filho>
+        <Filho sobrenome="Silva">Zeus</Filho>
     </div>
 }
 
