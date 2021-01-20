@@ -13,9 +13,13 @@ import ComFilhos from './basicos/ComFilhos'
 import Condicional from './basicos/Condicional'
 import CondicionalComIf from './basicos/CondicionalComIf'
 import Comunicacaodireta from './comunicacao/direta/Pai'
+import Comunicacaoindireta from './comunicacao/indireta/Super'
 
 const myVar = (props) => {
     return <div className="App">
+        <Card titulo="#08 - Comunicação indireta" color="#848484">
+            <Comunicacaoindireta></Comunicacaoindireta>
+        </Card>
         <Card titulo="#07 - Comunicação direta" color="#f00000">
             <Comunicacaodireta sobrenome="Freitas"></Comunicacaodireta>
         </Card>
