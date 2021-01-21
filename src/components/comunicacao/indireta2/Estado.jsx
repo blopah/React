@@ -1,8 +1,15 @@
 import React from 'react'
 
 const myVar = (props) => {
+
+    function plane(plan) {
+        return props.mundo('planeta')
+    }
+
+    const planet = plane();
+
     return <div>
-        <p>{props.children} {props.mundo}</p>
+        <p>{props.children} {planet}</p>
     </div>
 }
 
