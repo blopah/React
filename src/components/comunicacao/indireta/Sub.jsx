@@ -1,11 +1,18 @@
 import React from 'react'
 
 const myVar = (props) => {
+
+    function clique() {
+        props.onClicar(
+            Math.random(), 'Fim'
+        )
+    };
+
     return (
         <div>
-            <button onClick={() => {
-                props.onClicar(Math.random(), 'Fim')
-            }}>Alterar</button>
+            <button onClick={clique}>
+                Alterar
+            </button>
         </div>
     );
 };
