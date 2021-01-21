@@ -4,7 +4,7 @@ import Estado from './Estado.jsx'
 const myVar = (props) => {
 
     function world(plan) {
-        return plan + 'uhuuu';
+        return plan + ' Terra';
     }
 
     return <div>
