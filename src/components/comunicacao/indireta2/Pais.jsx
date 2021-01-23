@@ -8,7 +8,7 @@ const myVar = (props) => {
     }
 
     return <div>
-        <Estado mundo={world}>Ola </Estado>
+        <Estado mundo={world}>Olar </Estado>
     </div>
 };
 
