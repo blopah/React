@@ -6,9 +6,12 @@ const myVar = (props) => {
     function world(plan) {
         return plan + ' Terra';
     }
+    function worlds(plan) {
+        return plan + ' Terra';
+    }
 
     return <div>
-        <Estado mundo={world}>Olar </Estado>
+        <Estado mundo={world}>Ola </Estado>
     </div>
 };
 
