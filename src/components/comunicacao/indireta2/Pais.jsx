@@ -6,7 +6,10 @@ const myVar = (props) => {
     function world(plan) {
         return plan + ' Terra';
     }
-    function worlds(plan) {
+    function func(plan) {
+        return plan + ' Terra';
+    }
+    function func(plan) {
         return plan + ' Terra';
     }
 
