@@ -1,18 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Sub from './Sub'
 
-const myVar = (props) => {
+const MyVar = (props) => {
+
+    const [num, setNum] = useState(0)
 
     function quandoClicar(valorGerado, texto) {
-        console.log('Ação!')
-        console.log(valorGerado)
-        console.log(texto)
+        setNum(valorGerado)
     }
     
     return <div>
-        <h4>Valor</h4>
+        <h4>Valor: {num}</h4>
         <Sub onClicar={quandoClicar}></Sub>
     </div>
 }
 
-export default myVar;
+export default MyVar;
