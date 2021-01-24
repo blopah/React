@@ -4,7 +4,7 @@ const myVar = (props) => {
 
     function clique() {
         props.onClicar(
-            Math.random(), 'Fim'
+            Math.random()
         )
     };
 

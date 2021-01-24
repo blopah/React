@@ -5,7 +5,7 @@ const MyNewVar = (props) => {
 
     const [num, setNum] = useState(0)
 
-    function quandoClicar(valorGerado, texto) {
+    function quandoClicar(valorGerado) {
         setNum(valorGerado)
     }
     
