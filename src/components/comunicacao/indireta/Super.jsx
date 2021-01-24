@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Sub from './Sub'
 
-const MyVar = (props) => {
+const MyNewVar = (props) => {
 
     const [num, setNum] = useState(0)
 
@@ -15,4 +15,4 @@ const MyVar = (props) => {
     </div>
 }
 
-export default MyVar;
+export default MyNewVar;
