@@ -34,14 +34,7 @@ const myVar = (props) => {
             <Condicional numero={9}></Condicional>
         </Card>
         <Card titulo="#04 - Repetição" color="#000f00">
-            <Repeticao>
-                <ul>
-                    <li>Python</li>
-                    <li>Java Script</li>
-                    <li>Java</li>
-                    <li>PHP</li>
-                </ul>
-            </Repeticao>
+            <Repeticao></Repeticao>
         </Card>
         <Card titulo="#03 - Com Filhos" color="#0000f0">
             <ComFilhos>
