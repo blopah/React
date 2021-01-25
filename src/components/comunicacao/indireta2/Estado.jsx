@@ -2,7 +2,7 @@ import React from 'react'
 
 const myVar = (props) => {
 
-    function plane(plan) {
+    function plane() {
         return props.mundo('Planeta')
     }
 
