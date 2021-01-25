@@ -9,7 +9,7 @@ const MyVar = (props) => {
         today = new Date();
     } /*Pega nova data*/
 
-    setInterval(newDate, 1000)
+    setInterval(newDate, 1000) /*atualiza a data*/
 
     function clikou() {
         console.log(today.getSeconds())
