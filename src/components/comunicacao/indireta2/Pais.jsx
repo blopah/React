@@ -7,7 +7,7 @@ const MyVar = (props) => {
 
     function newDate() {
         today = new Date();
-    }
+    } /*Pega nova data*/
 
     setInterval(newDate, 1000)
 
