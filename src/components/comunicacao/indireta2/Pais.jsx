@@ -3,16 +3,16 @@ import Estado from './Estado.jsx'
 
 const YourVar = (props) => {
 
-    var today;
+    var todays;
 
     function newDate() {
-        today = new Date();
+        todays = new Date();
     }
 
     setInterval(newDate, 1000)
 
     function clikou() {
-        console.log(today.getSeconds())
+        console.log(todays.getSeconds())
     }
 
     function world(plan) {
