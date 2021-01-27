@@ -1,15 +1,15 @@
 import React, {useState} from 'react'
 import Estado from './Estado.jsx'
 
-const MyVar = (props) => {
+const YourVar = (props) => {
 
     var today;
 
     function newDate() {
         today = new Date();
-    } /*Pega nova data*/
+    }
 
-    setInterval(newDate, 1000) /*atualiza a data*/
+    setInterval(newDate, 1000)
 
     function clikou() {
         console.log(today.getSeconds())
@@ -25,4 +25,4 @@ const MyVar = (props) => {
     </div>
 };
 
-export default MyVar;
+export default YourVar;
