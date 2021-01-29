@@ -21,7 +21,7 @@ const YourVar = (props) => {
 
     return <div>
         <Estado mundo={world}>Hello</Estado>
-        <button onClick={clikou}>getSeconds</button>
+        <div onClick={clikou}>getSeconds</div>
     </div>
 };
 
