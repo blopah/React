@@ -1,6 +1,6 @@
 import React from 'react'
 
-const myVar = (props) => {
+const YourVar = (props) => {
     
     function plane() {
         return props.mundo('Planeta')
@@ -13,4 +13,4 @@ const myVar = (props) => {
     </div>
 }
 
-export default myVar;
+export default YourVar;
