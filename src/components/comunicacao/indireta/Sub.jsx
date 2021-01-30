@@ -1,6 +1,6 @@
 import React from 'react'
 
-const myVar = (props) => {
+const YourVar = (props) => {
 
     function clique() {
         props.onClicar(
@@ -17,4 +17,4 @@ const myVar = (props) => {
     );
 };
 
-export default myVar;
+export default YourVar;
