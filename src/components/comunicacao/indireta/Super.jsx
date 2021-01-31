@@ -4,13 +4,15 @@ import Sub from './Sub'
 const YourVar = (props) => {
 
     const [num, setNum] = useState(0)
+    const [text, setText] = useState('Value')
 
     function quandoClicar(valorGerado, texto) {
         setNum(valorGerado)
+        setText(texto)
     }
     
     return <div>
-        <h4>Valor: {num}</h4>
+        <h4>{text}: {num}</h4>
         <Sub onClicar={quandoClicar}></Sub>
     </div>
 }
