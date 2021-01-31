@@ -24,3 +24,12 @@ body {
 h1 {
     font-family: 'Roboto', sans-serif;
 }
+
+.button {
+    background-color: rgb(177, 177, 177);
+    font-size: 0.6em;
+    border: 1px black dashed;
+    border-radius: 10px;
+    width: 50%;
+    margin: 5% auto;
+}
