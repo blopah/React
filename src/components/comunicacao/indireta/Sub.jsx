@@ -4,7 +4,7 @@ const YourVar = (props) => {
 
     function clique() {
         props.onClicar(
-            Math.random()
+            Math.random(), 'Gerado'
         )
     };
 
