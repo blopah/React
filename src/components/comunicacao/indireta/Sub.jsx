@@ -10,7 +10,7 @@ const YourVar = (props) => {
 
     return (
         <div>
-            <div onClick={clique}>
+            <div onClick={clique} className="button">
                 Alterar
             </div>
         </div>
