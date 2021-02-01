@@ -16,9 +16,13 @@ import Comunicacaodireta from './comunicacao/direta/Pai'
 import Comunicacaoindireta from './comunicacao/indireta/Super'
 import Comunicacaoindireta2 from './comunicacao/indireta2/Pais'
 import Input from './form/Input'
+import Contador from './contador/Contador'
 
 const myVar = (props) => {
     return <div className="App">
+        <Card titulo="#11 - Contador" color="#00f484">
+            <Contador></Contador>
+        </Card>
         <Card titulo="#10 - Input" color="#008484">
             <Input></Input>
         </Card>

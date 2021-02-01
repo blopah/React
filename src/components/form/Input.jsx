@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const MyVar = (props) => {
-    const [name, setName] = useState('Pedro')
+    const [name, setName] = useState('Pablo')
     return (
         <>
             <h3>{name}</h3>
