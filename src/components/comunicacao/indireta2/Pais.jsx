@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Estado from './Estado.jsx'
 
 const YourVar = (props) => {
