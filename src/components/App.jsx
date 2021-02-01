@@ -19,7 +19,7 @@ import Input from './form/Input'
 
 const myVar = (props) => {
     return <div className="App">
-        <Card titulo="#10 - Input" color="#f08484">
+        <Card titulo="#10 - Input" color="#008484">
             <Input></Input>
         </Card>
         <Card titulo="#09 - Comunicação indireta 2" color="#ff8484">
