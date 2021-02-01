@@ -7,7 +7,7 @@ const YourVar = (props) => {
     const [text, setText] = useState('Numero')
 
     function quandoClicar(valorGerado, texto) {
-        setNum(valorGerado)
+        setNum(valorGerado);
         setText(texto)
     }
     
