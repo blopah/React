@@ -9,12 +9,16 @@ const YourVar = (props) => {
     }
 
     var [sec, setSec] = React.useState(new Date().getSeconds());
-
+    
+    function getSec() {
+        setSec(new Date().getSeconds())
+    }
+    
     // setInterval(setSec(sec += 1), 1000)
 
     return <div>
         <Estado mundo={world}>Ola</Estado> {/* chama o componente filho, enviando a funcao e tambem childrens */}
-        <div className="button">Second: {sec}</div> {/* botao */}
+        <div className="button" onClick={getSec}>Second: {sec}</div> {/* botao */}
     </div>
 };
 
