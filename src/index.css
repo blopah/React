@@ -11,6 +11,11 @@ body {
     color: #ffffffe5;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
+    border-radius: 50px;
+    border-radius: 49px;
+background: #2e2e2e;
+box-shadow: inset 26px 26px 55px #222222,
+            inset -26px -26px 55px #3a3a3a;
 }
 
 .Apps {
