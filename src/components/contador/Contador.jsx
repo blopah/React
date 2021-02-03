@@ -1,6 +1,7 @@
 import './Contador.css'
 import React, { Component } from 'react'
 import Display from './Display'
+import PassoForm from './PassoForm'
 
 const myVar = class Contador extends Component {
 
@@ -21,6 +22,12 @@ const myVar = class Contador extends Component {
         })
     }
 
+    mudarPasso = (novoPasso) => {
+        this.setState({
+            passo: novoPasso
+        })
+    }
+
 
 
     render() {
@@ -28,9 +35,9 @@ const myVar = class Contador extends Component {
         return (
             <div className="contador">
                 <h2>Contador</h2>
-                <h4>Passo: {this.state.passo}</h4>
-                <input type="number" value={this.state.passo}
-                    onChange={e => this.setState({ passo: +e.target.value })} />
+                
+                <PassoForm passo={this.state.passo} 
+                onPassoChange={this.mudarPasso}></PassoForm>
                 <Display valor={this.state.valor}></Display>
 
                 <div>
