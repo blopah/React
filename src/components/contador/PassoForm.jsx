@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default (props) => {
+const myVar = (props) => {
     return (
         <div>
             <label htmlFor="passiInput">Passo: </label>
@@ -9,3 +9,5 @@ export default (props) => {
         </div>
     )
 }
+
+export default myVar;

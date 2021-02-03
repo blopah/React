@@ -1,8 +1,9 @@
 import React from "react";
 
-export default (props) => {
-    
+const myVar = (props) => {
     return (
-    <h4>Valor: {props.valor}</h4>
+        <h4>Valor: {props.valor}</h4>
     );
 };
+
+export default myVar;
