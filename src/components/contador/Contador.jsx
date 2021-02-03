@@ -1,5 +1,6 @@
 import './Contador.css'
 import React, { Component } from 'react'
+import Display from './Display'
 
 const myVar = class Contador extends Component {
 
@@ -30,9 +31,7 @@ const myVar = class Contador extends Component {
                 <h4>Passo: {this.state.passo}</h4>
                 <input type="number" value={this.state.passo}
                     onChange={e => this.setState({ passo: +e.target.value })} />
-                <h4>Valor: {this.state.valor}</h4>
-                <input type="number" value={this.state.valor}
-                    onChange={e => this.setState({ valor: +e.target.value })} />
+                <Display valor={this.state.valor}></Display>
 
                 <div>
                     <button onClick={this.inc}>+</button>
