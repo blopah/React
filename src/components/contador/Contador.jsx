@@ -2,6 +2,7 @@ import './Contador.css'
 import React, { Component } from 'react'
 import Display from './Display'
 import PassoForm from './PassoForm'
+import Botoes from './Botoes'
 
 const myVar = class Contador extends Component {
 
@@ -39,11 +40,8 @@ const myVar = class Contador extends Component {
                 <PassoForm passo={this.state.passo} 
                 onPassoChange={this.mudarPasso}></PassoForm>
                 <Display valor={this.state.valor}></Display>
+                <Botoes incr={this.inc} decr={this.dec}></Botoes>
 
-                <div>
-                    <button onClick={this.inc}>+</button>
-                    <button onClick={this.dec}>-</button>
-                </div>
             </div>
         )
     }
