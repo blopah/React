@@ -1,21 +1,20 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
 * {
-    padding: 2px;
+    padding: 2%;
     margin: 2px;
 }
 
 body {
     text-align: center;
     background-color: #2b2b2b;
-    color: #ffffffe5;
+    color: #8f97f3;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
-    border-radius: 50px;
-    border-radius: 49px;
-background: #2e2e2e;
-box-shadow: inset 26px 26px 55px #222222,
-            inset -26px -26px 55px #3a3a3a;
+    border-radius: 58px;
+    background: #3440e5;
+    box-shadow: inset 13px 13px 26px #242c9e,
+                inset -13px -13px 26px #4454ff;
 }
 
 .Apps {

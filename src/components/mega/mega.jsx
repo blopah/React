@@ -8,13 +8,13 @@ const MyVar = (props) => {
         let nume = Array(8).fill(5)
         for (let i = 0; i < props.qttNumbers; i++) {
             var num = Math.floor(Math.random() * 61);
-            if (i == 0) {
+            if (i === 0) {
                 nume[i] = num;
             }
 
             while (nume.includes(num)) {
                 // console.log(num + '-' + i)
-                var num = Math.floor(Math.random() * 61);
+                num = Math.floor(Math.random() * 61);
             }
 
             nume[i] = num;
