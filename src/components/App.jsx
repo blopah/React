@@ -25,7 +25,7 @@ const myVar = (props) => {
         <h1>Fundamentos React</h1>
         <div className="App">
             <Card titulo="#12 - Mega" color="#00484">
-                <Mega></Mega>
+                <Mega qttNumbers={8}></Mega>
             </Card>
             <Card titulo="#11 - Contador" color="#00f484">
                 <Contador passo={10} valor={100}></Contador>
