@@ -8,11 +8,11 @@
     flex: 1 1 300px;
     display: flex;
     flex-direction: column;
+    transition: box-shadow 0.3s;
     /* border: 1px black solid; */
 }
 
 .card:hover {
-    background: #3440e5;
     box-shadow: inset 13px 13px 26px #242c9e,
                 inset -13px -13px 26px #4454ff;
 }

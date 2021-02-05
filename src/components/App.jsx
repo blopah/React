@@ -1,6 +1,7 @@
 // css
 import '../index.css'
 import '../app.css'
+import '../w3style.css'
 
 // react
 import React from 'react'
