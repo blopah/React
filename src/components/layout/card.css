@@ -1,36 +1,25 @@
 .card {
     border-radius: 58px;
-    background: #3440e5;
-    box-shadow:  13px 13px 26px #242c9e,
-                -13px -13px 26px #4454ff;
     margin: 2%;
     width: 100%;
     flex: 1 1 300px;
     display: flex;
     flex-direction: column;
     transition: box-shadow 0.3s;
-    /* border: 1px black solid; */
+    border: 1px black solid;
 }
 
 .card:hover {
-    box-shadow: inset 13px 13px 26px #242c9e,
-                inset -13px -13px 26px #4454ff;
+    border: 1px white solid;
 }
 
 .conteudo {
-    /* background-color: #DFDCE3; */
-    /* color: black; */
     flex: 1;
-    font-size: 2em;
-    /* border: 1px black solid; */
-    /* border-radius: 10px; */
+    font-size: 1.5em;
 }
 
 .footer {
-    color: #ffffff;
-    /* background-color: rgb(8, 45, 112); */
-    border-top: 1px #ffffff dashed;
-    /* border-radius: 10px; */
+    /* border-top: 1px #ffffff dashed; */
 }
 
 
