@@ -1,36 +1,38 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
 * {
-    padding: 2%;
-    margin: 2px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px gold solid;
 }
 
-body {
-    text-align: center;
-    background-color: #2b2b2b;
-    color: #8f97f3;
-    margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
-    border-radius: 58px;
-    background: #3440e5;
-    box-shadow: inset 13px 13px 26px #242c9e,
-                inset -13px -13px 26px #4454ff;
-}
-
-.Apps {
+.App {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #534d4d;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.items {
+    background-color: red;
+    flex: 17;
+    margin-left: 22%;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .button {
-    background-color: rgb(175, 175, 175);
-    border: 1px black dashed;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 1px black solid;
     border-radius: 10px;
-    font-size: 0.7em;
+    /* font-size: 0.7em; */
     margin: 5% auto;
     width: 50%;
 }

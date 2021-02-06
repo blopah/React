@@ -1,0 +1,52 @@
+.info {
+    position: fixed;
+    background-color: cyan;
+    flex: 5;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    align-items: center;
+    padding: 1%;
+}
+
+.perfil {
+    width: 85%;
+}
+
+.redes {
+    display: flex;
+    margin-top: 2%;
+}
+
+.redes img {
+    padding: 10% 10% 0 10%;
+}
+
+.linha {
+    width: 74%;
+    height: 1px;
+    background-color: red;
+    margin: 8%;
+}
+
+.desc {
+    width: 88%;
+    text-align: center;
+}
+
+.em-react {
+    display: flex;
+    align-items: center;
+    width: 44%;
+    justify-content: space-around;
+}
+
+.react-logo1 {
+    width: 26%;
+}
+
+.chapa {
+    border: 1px solid black;
+    margin: 10% auto;
+}

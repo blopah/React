@@ -1,6 +1,6 @@
 .card {
     border-radius: 58px;
-    margin: 2%;
+    padding: 2%;
     width: 100%;
     flex: 1 1 300px;
     display: flex;
