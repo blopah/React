@@ -4,20 +4,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
     background-color: #E4EBF5;
 }
 
 .App {
     color: white;
     font-family: 'Roboto', sans-serif;
-    background-color: #534d4d;
     display: flex;
     flex-direction: row;
     margin-top: 5%;
 }
 
 .items {
-    background-color: red;
     flex: 17;
     margin-left: 22%;
 }
