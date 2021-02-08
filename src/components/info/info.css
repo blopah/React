@@ -75,9 +75,10 @@
 .em-react {
     display: flex;
     align-items: center;
-    width: 44%;
+    width: 55%;
     justify-content: space-around;
     color: #8A8D92;
+    font-size: 1vw;
 }
 
 .react-logo1 {
@@ -85,21 +86,28 @@
     margin-left: -19%;
 }
 
+.react-logo1 img {
+    border-radius: 50%;
+    /* box-shadow:  4px 4px 8px #969ba2,
+             -4px -4px 8px #ffffff; */
+}
+
 .chapa {
     /* border: 1px solid black; */
     margin: 10% auto;
     border-radius: 1vw;
-    box-shadow: inset 4px 4px 8px #5b5e62,
-            inset -4px -4px 8px #ffffff;
+    box-shadow: inset 6px 6px 12px #8d9298,
+            inset -6px -6px 12px #ffffff;
     color: #8A8D92;
 }
 
 .agrad {
     width: 80%;
     margin: 5% auto;
-    font-weight: bold;
+    font-weight: 300;
     font-size: 0.95vw;
     line-height: 20px;
+    color: #707275;
 }
 
 .obrigado {
