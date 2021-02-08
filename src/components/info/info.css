@@ -1,6 +1,5 @@
 .info {
     position: fixed;
-    background-color: cyan;
     flex: 5;
     margin: 0 auto;
     display: flex;
