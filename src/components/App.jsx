@@ -1,6 +1,7 @@
 // css
 import '../index.css'
 import '../app.css'
+import '../cards.css'
 
 // react
 import React from 'react'
@@ -23,7 +24,7 @@ import Info from './info/Info'
 
 const myVar = (props) => {
     return <div className="App">
-        <div className="info">
+        <div>
             <Info></Info>
         </div>
         <div className="items">

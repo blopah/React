@@ -15,12 +15,16 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .items {
     flex: 17;
     margin-left: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 h1 {
