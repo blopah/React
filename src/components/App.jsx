@@ -1,7 +1,7 @@
 // css
 import '../index.css'
 import '../app.css'
-import '../cards.css'
+import '../right.css'
 
 // react
 import React from 'react'
@@ -29,7 +29,7 @@ const myVar = (props) => {
         </div>
         <div className="items">
             <h1>Fundamentos React</h1>
-            <div className="cards">
+            <div className="right">
                 <Card titulo="#12 - Mega" color="#00484">
                     <Mega qttNumbers={8}></Mega>
                 </Card>
