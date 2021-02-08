@@ -11,10 +11,10 @@ const myVar = (props) => {
             <p className="email">pablodplucenahh@gmail.com</p>
             <div className="redes">
                 <div className="lkd">
-                    <img width="100%" height="100%" src="https://imagens.netlify.app/lkd.svg" alt=""/>
+                    <img width="80%" height="100%" src="https://imagens.netlify.app/lkd.svg" alt=""/>
                 </div>
                 <div className="git">
-                    <img width="100%" height="100%" src="https://imagens.netlify.app/git.svg" alt=""/>
+                    <img width="80%" height="100%" src="https://imagens.netlify.app/git.svg" alt=""/>
                 </div>
             </div>
             <div className="linha"></div>
