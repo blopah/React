@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import './mega.css'
 
 const MyVar = (props) => {
 
@@ -25,8 +26,8 @@ const MyVar = (props) => {
     return (
         <div>
             <h2>Mega</h2>
-            <h3>{numeros.join('-')}</h3>
-            <button onClick={gerarNumeros}>Gerar Números</button>
+            <h3 class="num-mega">{numeros.join('-')}</h3>
+            <div class="button" onClick={gerarNumeros}>Gerar Números</div>
         </div>
     )
 }

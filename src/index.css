@@ -28,17 +28,26 @@ body {
     width: 100%;
 }
 
-h1 {
-    
-}
-
 .button {
-    background-color: white;
-    color: black;
+    /* background-color: white; */
+    /* color: black; */
     text-align: center;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     border-radius: 10px;
     /* font-size: 0.7em; */
-    margin: 5% auto;
-    width: 50%;
+    margin: 10% auto;
+    padding: 5%;
+    transition: all 1s;
+    border-radius: 53px;
+    background: linear-gradient(145deg, #f4fbff, #cdd4dd);
+    box-shadow: 12px 12px 24px #c4cad3,
+        -12px -12px 24px #ffffff;
+    cursor: pointer;
+}
+
+.button:active {
+    border-radius: 53px;
+    background: linear-gradient(145deg, #cdd4dd, #f4fbff);
+    box-shadow: 12px 12px 24px #c4cad3,
+        -12px -12px 24px #ffffff;
 }

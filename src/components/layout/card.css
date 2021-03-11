@@ -1,5 +1,5 @@
 .card {
-    border-radius: 1.5vw;
+    border: 1px rgba(146, 146, 146, 0.144) solid;
     padding: 2%;
     margin: 3%;
     width: 100%;
@@ -14,10 +14,11 @@
         -15px -15px 23px #f4fbff;
         color: #8A8D92;
     text-align: center;
+    /* transition: all 1s; */
 }
 
 .card:hover {
-    border: 1px #ffffff63 solid;
+    border: 1px white solid;
     border-radius: 41px;
     background: #E4EBF5;
     box-shadow: inset 15px 15px 23px #d4dbe4,
@@ -32,8 +33,16 @@
     align-items: center;
 }
 
+.conteudo div {
+    width: 100%;
+}
+
+.conteudo div .button {
+    width: 70%;
+}
+
 .footer {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
 }
 
 
