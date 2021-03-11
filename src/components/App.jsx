@@ -35,7 +35,7 @@ const myVar = (props) => {
                 </div>
             </div>
             <div className="right">
-                <Card titulo="#12 - Mega" color="#00484">
+                <Card titulo="#12 - Mega-Sena" color="#00484">
                     <Mega qttNumbers={8}></Mega>
                 </Card>
                 <Card titulo="#11 - Contador" color="#00f484">

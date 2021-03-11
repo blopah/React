@@ -14,7 +14,7 @@
         -15px -15px 23px #f4fbff;
         color: #8A8D92;
     text-align: center;
-    /* transition: all 1s; */
+    transition: all 1s;
 }
 
 .card:hover {

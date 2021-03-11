@@ -12,7 +12,7 @@ const YourVar = (props) => {
     }
     
     return <div>
-        <h4>{text}: {num}</h4>
+        <h4>{text}: {num.toFixed(8)*100000000}</h4>
         <Sub onClicar={quandoClicar}></Sub>
     </div>
 }

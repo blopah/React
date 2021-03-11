@@ -5,7 +5,7 @@ const YourVar = (props) => {
     
     // funcao que pega o retorno do componente filho e retorna
     function world(plan) {
-        return plan + ' Terra';
+        return plan + ' segundos';
     }
 
     var [sec, setSec] = React.useState(new Date().getSeconds());
@@ -17,8 +17,8 @@ const YourVar = (props) => {
     // setInterval(setSec(sec += 1), 1000)
 
     return <div>
-        <Estado mundo={world}>Ola</Estado> {/* chama o componente filho, enviando a funcao e tambem childrens */}
-        <div className="button" onClick={getSec}>Second: {sec}</div> {/* botao */}
+        <h4><Estado mundo={world}>Descubra</Estado></h4> {/* chama o componente filho, enviando a funcao e tambem childrens */}
+        <div className="button" onClick={getSec}>Segundo: {sec}</div> {/* botao */}
     </div>
 };
 

@@ -14,7 +14,7 @@ const YourVar = (props) => {
     // funcao que joga a data no console
     
     function plane() {
-        return props.mundo('Planeta')
+        return props.mundo('os')
     }
 
     const planet = plane();

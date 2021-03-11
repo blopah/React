@@ -37,7 +37,7 @@ body {
     /* font-size: 0.7em; */
     margin: 10% auto;
     padding: 5%;
-    transition: all 1s;
+    transition: all 2s;
     border-radius: 53px;
     background: linear-gradient(145deg, #f4fbff, #cdd4dd);
     box-shadow: 12px 12px 24px #c4cad3,
@@ -53,5 +53,5 @@ body {
 }
 
 .dez {
-    width: 99%!important;
+    width: 100%!important;
 }
