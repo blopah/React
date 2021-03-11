@@ -35,11 +35,11 @@ const myVar = class Contador extends Component {
 
         return (
             <div className="contador">
-                <h2>Contador</h2>
+                {/* <h1 className="enunciado">Contador</h1> */}
                 
+                <Display valor={this.state.valor}></Display>
                 <PassoForm passo={this.state.passo} 
                 onPassoChange={this.mudarPasso}></PassoForm>
-                <Display valor={this.state.valor}></Display>
                 <Botoes incr={this.inc} decr={this.dec}></Botoes>
 
             </div>

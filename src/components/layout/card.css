@@ -18,7 +18,7 @@
 }
 
 .card:hover {
-    border: 1px white solid;
+    border: 1px rgba(255, 255, 255, 0.534) solid;
     border-radius: 41px;
     background: #E4EBF5;
     box-shadow: inset 15px 15px 23px #d4dbe4,
@@ -31,6 +31,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.enunciado {
+    /* color: red; */
+    margin: auto 0;
+    font-weight: 100;
+    align-self: flex-start;
 }
 
 .conteudo div {

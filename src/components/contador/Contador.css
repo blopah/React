@@ -1,5 +1,56 @@
-.w3-darkblue {
-    /* background-color: green!important;
+.input {
+    /* background-color: white; */
+    /* color: black; */
+    text-align: center;
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    font-size: 100%;
+    margin: 10% auto;
+    padding: 5%;
+    transition: all 1s;
     border: none;
-    color: red; */
+    color: #8A8D92;
+    border-radius: 53px;
+    background: #E4EBF5;
+    box-shadow: inset 4px 4px 8px #cdd4dd,
+        inset -4px -4px 8px #fbffff;
+    width: 50%;
+    height: 50px;
+}
+
+
+.buttons-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-contador {
+    /* background-color: white; */
+    /* color: black; */
+    text-align: center;
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    /* font-size: 0.7em; */
+    margin: 0% auto;
+    padding: 2%;
+    transition: all 1s;
+    border-radius: 53px;
+    background: linear-gradient(145deg, #f4fbff, #cdd4dd);
+    box-shadow: 12px 12px 24px #c4cad3,
+        -12px -12px 24px #ffffff;
+    cursor: pointer;
+    width: 55px!important;
+    height: 55px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+    font-weight: 300;
+}
+
+.button-contador:active {
+    border-radius: 53px;
+    background: linear-gradient(145deg, #cdd4dd, #f4fbff);
+    box-shadow: 12px 12px 24px #c4cad3,
+        -12px -12px 24px #ffffff;
 }

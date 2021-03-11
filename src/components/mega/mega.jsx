@@ -25,9 +25,9 @@ const MyVar = (props) => {
 
     return (
         <div>
-            <h2>Mega</h2>
-            <h3 class="num-mega">{numeros.join('-')}</h3>
-            <div class="button" onClick={gerarNumeros}>Gerar Números</div>
+            {/* <h1 className="enunciado">Mega</h1> */}
+            <h3 className="num-mega">{numeros.join('-')}</h3>
+            <div className="button" onClick={gerarNumeros}>Gerar Números</div>
         </div>
     )
 }
