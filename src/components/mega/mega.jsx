@@ -24,8 +24,8 @@ const MyVar = (props) => {
 
     return (
         <div>
-            <h3>Mega</h3>
-            <h4>{numeros.join('-')}</h4>
+            <h2>Mega</h2>
+            <h3>{numeros.join('-')}</h3>
             <button onClick={gerarNumeros}>Gerar Números</button>
         </div>
     )

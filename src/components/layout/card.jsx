@@ -9,6 +9,7 @@ const myVar = (props) => {
             {props.children}
         </div>
         <div className="footer">
+        <div className="linha"></div>
             {props.titulo}
         </div>
     </div>

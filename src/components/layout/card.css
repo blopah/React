@@ -8,20 +8,32 @@
     display: flex;
     flex-direction: column;
     transition: box-shadow 0.3s;
-    border: 1px black solid;
+    border-radius: 41px;
+    background: #E4EBF5;
+    box-shadow: 15px 15px 23px #d4dbe4,
+        -15px -15px 23px #f4fbff;
+        color: #8A8D92;
+    text-align: center;
 }
 
 .card:hover {
-    border: 1px white solid;
+    border: 1px #ffffff63 solid;
+    border-radius: 41px;
+    background: #E4EBF5;
+    box-shadow: inset 15px 15px 23px #d4dbe4,
+        inset -15px -15px 23px #f4fbff;
 }
 
 .conteudo {
     flex: 1;
     font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
-    /* border-top: 1px #ffffff dashed; */
+    font-size: 1.4vw;
 }
 
 

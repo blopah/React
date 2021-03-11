@@ -3,3 +3,21 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.fund {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: #8A8D92;
+    font-size: 1.8vw;
+}
+
+.react-logo2 img {
+    border-radius: 50%;
+}
+
+.react-logo2 {
+    width: 6.5%;
+    margin-left: 1vw;
+}

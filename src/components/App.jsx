@@ -28,7 +28,12 @@ const myVar = (props) => {
             <Info></Info>
         </div>
         <div className="items">
-            <h1>Fundamentos React</h1>
+        <div className="fund">
+                <h1 class="fundam">Fundamentos de React</h1>
+                <div className="react-logo2">
+                    <img width="100%" height="100%" src="https://imagens.netlify.app/reactreact-logo.svg" alt=""/>
+                </div>
+            </div>
             <div className="right">
                 <Card titulo="#12 - Mega" color="#00484">
                     <Mega qttNumbers={8}></Mega>
