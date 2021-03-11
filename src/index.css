@@ -51,3 +51,7 @@ body {
     box-shadow: 12px 12px 24px #c4cad3,
         -12px -12px 24px #ffffff;
 }
+
+.dez {
+    width: 100%!important;
+}

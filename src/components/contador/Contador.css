@@ -39,8 +39,8 @@
     box-shadow: 12px 12px 24px #c4cad3,
         -12px -12px 24px #ffffff;
     cursor: pointer;
-    width: 55px!important;
-    height: 55px!important;
+    width: 65px!important;
+    height: 65px!important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,4 +53,8 @@
     background: linear-gradient(145deg, #cdd4dd, #f4fbff);
     box-shadow: 12px 12px 24px #c4cad3,
         -12px -12px 24px #ffffff;
+}
+
+.deposito {
+    font-weight: 600;
 }
