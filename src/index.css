@@ -53,5 +53,21 @@ body {
 }
 
 .dez {
-    width: 100%!important;
+    width: 100% !important;
+
+}
+
+.condicional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oito {
+    width: 16%!important;
+    height: 60%!important;
+    margin: 6%!important;
+    font-size: 1.3em!important;
+    text-align: center!important;
+    padding: 2%!important;
 }
