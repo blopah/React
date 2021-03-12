@@ -1,5 +1,5 @@
 .card {
-    border: 1px rgba(146, 146, 146, 0.144) solid;
+    border: 1px rgba(146, 146, 146, 1) solid;
     padding: 2%;
     margin: 3%;
     width: 100%;
@@ -12,13 +12,20 @@
     background: #E4EBF5;
     box-shadow: 15px 15px 23px #d4dbe4,
         -15px -15px 23px #f4fbff;
-        color: #8A8D92;
+    color: #8A8D92;
     text-align: center;
     transition: all 1s;
 }
 
+@media screen and (max-width: 700px) {
+    .card {
+        margin: 7% 3%;
+        height: 94vh;
+    }
+}
+
 .card:hover {
-    border: 1px rgba(255, 255, 255, 0.534) solid;
+    border: 1px rgba(255, 255, 255, 1) solid;
     border-radius: 41px;
     background: #E4EBF5;
     box-shadow: inset 15px 15px 23px #d4dbe4,
@@ -49,7 +56,7 @@
 }
 
 .footer {
-    font-size: 1.3vw;
+    font-size: 1.2em;
 }
 
 

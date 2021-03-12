@@ -1,6 +1,5 @@
 // css
 import '../index.css'
-import '../app.css'
 import '../right.css'
 
 // react

@@ -9,6 +9,13 @@
     padding: 1%;
 }
 
+@media screen and (max-width: 700px) {
+    .info {
+        position: static;
+        width: 90%;
+    }
+}
+
 .perfil {
     width: 75%;
     border-radius: 50%;
@@ -68,7 +75,7 @@
 .desc {
     width: 75%;
     text-align: center;
-    font-size: 1.12vw;
+    font-size: 1em;
     color: #8A8D92;
 }
 
@@ -78,7 +85,7 @@
     width: 55%;
     justify-content: space-around;
     color: #8A8D92;
-    font-size: 1vw;
+    font-size: 1.15em;
 }
 
 .react-logo1 {
@@ -96,7 +103,7 @@
     /* border: 1px solid black; */
     margin: 10% auto;
     border-radius: 1vw;
-    box-shadow: inset 6px 6px 12px #8d9298,
+    box-shadow: inset 6px 6px 12px #8d929883,
             inset -6px -6px 12px #ffffff;
     color: #8A8D92;
 }
@@ -104,10 +111,10 @@
 .agrad {
     width: 80%;
     margin: 5% auto;
-    font-weight: 300;
-    font-size: 0.95vw;
+    font-weight: 600;
+    font-size: 1em;
     line-height: 20px;
-    color: #707275;
+    color: #8A8D92;
 }
 
 .obrigado {

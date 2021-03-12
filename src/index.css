@@ -19,6 +19,13 @@ body {
     margin-top: 2%;
 }
 
+
+@media screen and (max-width: 700px) {
+    .App {
+        flex-direction: column;
+    }
+}
+
 .items {
     flex: 17;
     margin-left: 22%;
@@ -26,6 +33,12 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .items {
+        margin-left: 0;
+    }
 }
 
 .button {
